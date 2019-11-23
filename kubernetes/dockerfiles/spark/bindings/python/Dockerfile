@@ -15,7 +15,7 @@
 # limitations under the License.
 #
 
-ARG base_img
+ARG base_img=w420050757/spark:3.0.0-preview
 
 FROM $base_img
 WORKDIR /
